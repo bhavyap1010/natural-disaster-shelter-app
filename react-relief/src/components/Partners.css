@@ -1,0 +1,19 @@
+.partners {
+    background-color: #ececec;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.partners h2 {
+    font-size: 2.5em;
+}
+
+.partners ul {
+    list-style: none;
+    padding: 0;
+}
+
+.partners li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}

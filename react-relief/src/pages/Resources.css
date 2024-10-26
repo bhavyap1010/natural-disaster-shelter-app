@@ -1,0 +1,12 @@
+.resources {
+    padding: 20px;
+    text-align: center;
+}
+
+.resources h2 {
+    color: #333;
+}
+
+.resources p {
+    color: #666;
+}

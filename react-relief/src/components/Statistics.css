@@ -1,0 +1,13 @@
+.statistics {
+    padding: 50px 20px;
+    background-color: #fff8e1;
+    text-align: center;
+}
+
+.statistics h2 {
+    margin-bottom: 20px;
+}
+
+.statistics p {
+    margin: 10px 0;
+}
