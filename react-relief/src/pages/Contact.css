@@ -1,12 +1,18 @@
 .contact {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    font-size: 2rem;
+    gap: 20px;
+    padding: 5vh;
 }
 
-.contact h2 {
-    color: #333;
-}
-
-.contact p {
-    color: #666;
+.airtable-contact-embed {
+    width: 100%;
+    max-width: 500px;
+    height: 755px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
