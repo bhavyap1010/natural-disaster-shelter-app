@@ -1,13 +1,47 @@
+.red-block {
+    background-color: red;
+    height: 5vh;
+    width: 100%;
+}
+
 .statistics {
-    padding: 50px 20px;
-    background-color: #fff8e1;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
     text-align: center;
 }
 
 .statistics h2 {
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.statistics p {
-    margin: 10px 0;
+.images-container {
+    display: flex;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.left-image {
+    flex: 3; 
+}
+
+.left-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-images {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.top-right-image,
+.bottom-right-image {
+    width: 100%;
+    height: 50%; 
+    object-fit: cover;
 }

@@ -1,6 +1,27 @@
 .resources {
     padding: 20px;
-    text-align: center;
+}
+
+.resource-block {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.image {
+    flex: 0 0 40%; 
+    max-width: 300px;
+    width: 100%; 
+    height: auto;
+}
+
+.content {
+    flex: 1; 
+    padding-left: 20px; 
+}
+
+.reverse {
+    flex-direction: row-reverse; 
 }
 
 .resources h2 {

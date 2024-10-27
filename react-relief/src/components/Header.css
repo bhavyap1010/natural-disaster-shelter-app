@@ -1,25 +1,74 @@
 .header {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    padding: 20px;
-    text-align: center;
+    background-color: white; 
+    color: black;           
+    padding: 20px;         
+    display: flex;          
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;    
+    height: 5vh;
+}
+
+.header img {
+    width: 40px;           
+    height: auto;          
+    margin-right: 15px;     
+}
+
+.header h1 {
+    margin: 0;             
+}
+
+.header nav {
+    margin-left: auto;      
 }
 
 .header nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; 
+    padding: 0;            
+    margin: 0;              
+    display: flex;        
 }
 
 .header nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 15px;       
 }
 
 .header nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: black;           
+    text-decoration: none;  
+    font-size: 18px;
+    padding: 10px 15px;   
+    border-radius: 5px;     
+    transition: background-color 0.3s, color 0.3s; 
 }
 
-.header nav ul li a:hover {
-    text-decoration: underline;
+
+.header nav ul li a.btn {
+    background-color: red; 
+    color: white;               
+    padding: 10px 20px;       
+    font-weight: bold;       
+    border-radius: 5px;        
+    transition: background-color 0.3s; 
+}
+
+.header nav ul li a.btn:hover {
+    background-color: rgb(200, 0, 0); 
+}
+
+.btn {
+    background-color: red; 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 18px; 
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn:hover {
+    background-color: rgb(200, 0, 0); 
+    transform: scale(1.05); 
 }

@@ -4,6 +4,7 @@ import Mission from '../components/Mission';
 import Partners from '../components/Partners';
 import Testimonials from '../components/Testimonials';
 import Statistics from '../components/Statistics';
+import './home.css';
 
 const Home = () => {
     return (

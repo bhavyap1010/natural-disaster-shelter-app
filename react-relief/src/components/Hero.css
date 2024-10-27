@@ -1,17 +1,68 @@
 .hero {
-    background-color: #007BFF; /* Solid blue background color */
+    position: relative; 
+    background-image: url('../images/bg.jpeg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center;
+    height: 90vh; 
     color: white;
-    text-align: center;
-    padding: 100px 20px;
-    border-radius: 8px; /* Rounded corners */
+    margin: 0; 
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 20px; 
+}
+
+.hero::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
 }
 
 .hero h1 {
-    font-size: 3em;
-    margin: 0; /* Remove default margin */
+    font-size: 3.5em; 
+    margin: 0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    position: relative; 
+    z-index: 2; 
+    margin-left: 20px; 
 }
 
 .hero p {
     font-size: 1.5em;
-    margin-top: 10px; /* Space between heading and paragraph */
+    margin-top: 10px; 
+    position: relative; 
+    z-index: 2; 
+    margin-left: 20px; 
+}
+
+.buttons {
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: flex-start; 
+    position: relative; 
+    z-index: 2; 
+}
+
+.btn {
+    background-color: red;
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 18px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn:hover {
+    background-color: rgb(200, 0, 0); 
+    transform: scale(1.05);
 }

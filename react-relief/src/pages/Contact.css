@@ -9,10 +9,10 @@
 }
 
 .airtable-contact-embed {
-    width: 100%;
     max-width: 500px;
     height: 755px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    width: 100%;
 }

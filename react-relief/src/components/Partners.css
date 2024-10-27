@@ -1,19 +1,31 @@
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
 .partners {
-    background-color: #ececec;
-    padding: 40px 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: white; 
+    padding: 0;
+    text-align: left; 
+}
+
+.partners-text {
+    flex: 1; 
+    padding-left: 20px; 
+}
+
+.partners-image {
+    flex: 1; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
 .partners h2 {
     font-size: 2.5em;
 }
 
-.partners ul {
-    list-style: none;
-    padding: 0;
-}
-
-.partners li {
+.partners p {
     font-size: 1.2em;
-    margin: 10px 0;
 }
