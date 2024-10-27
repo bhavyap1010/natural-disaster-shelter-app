@@ -1,3 +1,17 @@
+/* Global Variables */
+:root {
+    --primary-color: red;
+    --background-color: white;
+    --text-color: #666;
+    --card-height: 70vh;
+    --card-width: 30%;
+    --card-radius: 15px;
+    --card-shadow: rgba(0, 0, 0, 0.2);
+    --font-size-heading: 2.5em;
+    --padding: 20px;
+    --gap: 20px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,54 +19,57 @@ body {
 }
 
 .red-block {
-    background-color: red;
-    height: 5vh; 
+    background-color: var(--primary-color);
+    height: 5vh;
 }
 
 .testimonials {
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: white;
+    padding: var(--padding);
+    background-color: var(--background-color);
     text-align: center;
 }
 
 .testimonials h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: var(--font-size-heading);
+    margin-bottom: var(--padding);
 }
 
 .flexbox-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
-    gap: 20px; 
+    flex-wrap: wrap;
+    gap: var(--gap);
 }
 
 .card {
-    height: 70vh;
-    width: 30%; 
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: var(--card-height);
+    width: var(--card-width);
+    border-radius: var(--card-radius);
+    box-shadow: 0 4px 10px var(--card-shadow);
     overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
 
 .card img {
-    height: 50%; 
-    object-fit: cover; 
+    height: 50%;
+    object-fit: cover;
 }
 
 .card-body {
-    text-align: center; 
+    text-align: center;
 }
 
 .card-text {
-    font-style: italic; 
-    color: #666; 
+    font-style: italic;
+    color: var(--text-color);
 }
 
-.card-img-top{
+.card-img-top {
     margin: 25px;
     border-radius: 10px;
 }
