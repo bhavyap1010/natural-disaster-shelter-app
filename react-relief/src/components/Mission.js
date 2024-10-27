@@ -1,6 +1,6 @@
 import React from 'react';
 import './Mission.css';
-import missionImage from '../images/mission.jpg'; // Update with the correct image path
+import missionImage from '../images/mission.jpg';
 
 const Mission = () => {
     return (

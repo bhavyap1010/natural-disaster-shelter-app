@@ -24,7 +24,6 @@ const testimonialsData = [
 ];
 
 const Testimonials = () => {
-    // Example of dynamically changing CSS variables
     useEffect(() => {
         document.documentElement.style.setProperty('--primary-color', 'blue'); // Adjust color dynamically if needed
     }, []);

@@ -9,6 +9,11 @@
     height: 5vh;
 }
 
+.logo-image{
+    width: 40px;
+    height: auto;
+    margin-right: 15px;
+}
 
 a {
     color: black;

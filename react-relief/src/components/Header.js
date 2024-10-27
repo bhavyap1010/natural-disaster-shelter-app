@@ -6,14 +6,14 @@ import logo from '../images/logo.png';
 const Header = () => {
     const location = useLocation();
 
+    // the following will scroll the page to the top, when you click a button
     useEffect(() => {
-        // Scroll to the top of the page whenever the location changes
         window.scrollTo(0, 0);
     }, [location]);
 
     return (
         <header className="header">
-            <img src={logo} alt="Logo" style={{ width: '40px', height: 'auto', marginRight: '15px' }} />
+            <img src={logo} alt="Logo" className='logo-image' />
             <h1>
                 <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                     React Relief

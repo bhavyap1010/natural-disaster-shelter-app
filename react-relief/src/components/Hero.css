@@ -16,6 +16,7 @@
 }
 
 .hero::before {
+    /* makes it look little more darker */
     content: ''; 
     position: absolute; 
     top: 0;
