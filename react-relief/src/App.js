@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 import GetInvolved from './pages/GetInvolved';
+import Remove from './pages/Remove';
 import './App.css';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/remove" element={<Remove />} />
       </Routes>
       <Footer />
     </Router>
