@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/natural-disaster-shelter-app/static/css/main.12b50e81.css",
+    "main.js": "/natural-disaster-shelter-app/static/js/main.884c8ffe.js",
+    "static/js/453.f8597682.chunk.js": "/natural-disaster-shelter-app/static/js/453.f8597682.chunk.js",
+    "index.html": "/natural-disaster-shelter-app/index.html",
+    "main.12b50e81.css.map": "/natural-disaster-shelter-app/static/css/main.12b50e81.css.map",
+    "main.884c8ffe.js.map": "/natural-disaster-shelter-app/static/js/main.884c8ffe.js.map",
+    "453.f8597682.chunk.js.map": "/natural-disaster-shelter-app/static/js/453.f8597682.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b50e81.css",
+    "static/js/main.884c8ffe.js"
+  ]
+}
