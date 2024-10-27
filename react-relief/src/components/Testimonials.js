@@ -28,7 +28,7 @@ const Testimonials = () => {
         document.documentElement.style.setProperty('--primary-color', 'blue');
     }, []);
 
-    return (
+    return (    
         <>
             <div className="red-block"></div>
             <div className="testimonials">
