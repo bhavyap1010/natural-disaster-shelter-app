@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.12b50e81.css",
-    "main.js": "/static/js/main.f19775e4.js",
+    "main.css": "/static/css/main.34540c73.css",
+    "main.js": "/static/js/main.88af4aeb.js",
     "static/js/453.f8597682.chunk.js": "/static/js/453.f8597682.chunk.js",
+    "static/media/stats3.png": "/static/media/stats3.5eb61d8028fefc377851.png",
+    "static/media/survivor1.jpg": "/static/media/survivor1.c8c9deaed33d3ccaf5ef.jpg",
+    "static/media/partners.png": "/static/media/partners.0488df29bd3490a47d54.png",
+    "static/media/bg.jpeg": "/static/media/bg.0342b96fa3d9560ac125.jpeg",
+    "static/media/stats2.jpeg": "/static/media/stats2.e8767ec316f0c44c7052.jpeg",
+    "static/media/survivor2.jpg": "/static/media/survivor2.80bdb62e6d2dd46eafa9.jpg",
+    "static/media/ammo.png": "/static/media/ammo.5c5e8b9ab5f6f4c9a353.png",
+    "static/media/survivor3.jpg": "/static/media/survivor3.7559f1dcc1f6358a9dc0.jpg",
+    "static/media/stats1.png": "/static/media/stats1.46aeb8f00573d3ee0876.png",
+    "static/media/logo.png": "/static/media/logo.7085fcde8b3364ac41f5.png",
+    "static/media/mission.jpg": "/static/media/mission.f9a1c94cecd2c9920610.jpg",
     "index.html": "/index.html",
-    "main.12b50e81.css.map": "/static/css/main.12b50e81.css.map",
-    "main.f19775e4.js.map": "/static/js/main.f19775e4.js.map",
+    "main.34540c73.css.map": "/static/css/main.34540c73.css.map",
+    "main.88af4aeb.js.map": "/static/js/main.88af4aeb.js.map",
     "453.f8597682.chunk.js.map": "/static/js/453.f8597682.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12b50e81.css",
-    "static/js/main.f19775e4.js"
+    "static/css/main.34540c73.css",
+    "static/js/main.88af4aeb.js"
   ]
 }
