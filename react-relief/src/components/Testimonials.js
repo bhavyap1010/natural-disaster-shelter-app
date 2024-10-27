@@ -25,7 +25,7 @@ const testimonialsData = [
 
 const Testimonials = () => {
     useEffect(() => {
-        document.documentElement.style.setProperty('--primary-color', 'blue'); // Adjust color dynamically if needed
+        document.documentElement.style.setProperty('--primary-color', 'blue');
     }, []);
 
     return (

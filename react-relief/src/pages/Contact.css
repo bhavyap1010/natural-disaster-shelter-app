@@ -16,3 +16,8 @@
     overflow: hidden;
     width: 100%;
 }
+
+.airtable-contact-embed{
+    background: transparent;
+    border: 0px;
+}

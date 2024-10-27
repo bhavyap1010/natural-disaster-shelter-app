@@ -9,7 +9,7 @@ const Resources = () => {
         <div className="resources">
             {/* First */}
             <div className="resource-block">
-                <a href="https://ammo.com/articles/why-prepare-for-a-disaster" target="_blank" rel="noopener noreferrer">
+                <a href="https://ammo.com/articles/why-prepare-for-a-disaster" target="_blank" rel="">
                     <img src={ammo} alt="Essential Disaster Prep Guides" className="image" />
                 </a>
                 <div className="content">
@@ -31,14 +31,14 @@ const Resources = () => {
                     Be proactive in safeguarding yourself and your loved ones with our extensive resources for disaster preparedness. From hurricanes and wildfires to floods and earthquakes, we provide essential guidance on how to ready your home, family, and community. Discover our expert insights and actionable tips to empower you to face emergencies with confidence and compassion.
                     </p>
                 </div>
-                <a href="https://www.ready.gov/kit" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.ready.gov/kit" target="_blank" rel="">
                     <img src={ready} alt="Get Ready for Emergencies" className="image" />
                 </a>
             </div>
 
             {/* Third */}
             <div className="resource-block">
-                <a href="https://www.vice.com/en/article/hosting-a-refugee-876/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.vice.com/en/article/hosting-a-refugee-876/" target="_blank" rel="">
                     <img src={vice} alt="Know Your Resources" className="image" />
                 </a>
                 <div className="content">
