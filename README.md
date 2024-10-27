@@ -15,8 +15,9 @@ React Relief is a platform designed to connect individuals affected by natural d
 
 ## 🔗 Links:
 
-[https://reactrelief.study]([url](https://reactrelief.study))
-[https://devpost.com/software/react-relief]([url](https://devpost.com/software/react-relief))
+<ins>[https://reactrelief.study]([url](https://reactrelief.study))</ins>
+
+<ins>[https://devpost.com/software/react-relief]([url](https://devpost.com/software/react-relief))</ins>
 
 ## 📜 License
 
