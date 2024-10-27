@@ -4,17 +4,27 @@ import './Remove.css';
 
 const AIRTABLE_API_KEY = 'pat2AVlJ1l5lyJzpR.bef90fc2a899a44b1d17191ec41d3925024fd4e6abc044afd61b80cfd5e27f43';
 const BASE_ID = 'appZRNWf4GOcgwlPO';
-const TABLE_NAME = 'Providers';
+const TABLE_NAMES = {
+    Seeker: 'Seekers',
+    Provider: 'Providers',
+};
 
 const Remove = () => {
     const [id, setId] = useState('');
     const [email, setEmail] = useState('');
+    const [userType, setUserType] = useState('Seeker'); // Default to 'Seeker'
     const [message, setMessage] = useState('');
 
     const handleRemove = async () => {
         try {
+            const tableName = TABLE_NAMES[userType];
+            if (!tableName) {
+                setMessage('Invalid user type selected.');
+                return;
+            }
+
             const response = await axios.get(
-                `https://api.airtable.com/v0/${BASE_ID}/${TABLE_NAME}`,
+                `https://api.airtable.com/v0/${BASE_ID}/${tableName}`,
                 {
                     headers: {
                         Authorization: `Bearer ${AIRTABLE_API_KEY}`,
@@ -34,7 +44,7 @@ const Remove = () => {
 
             const recordId = records[0].id;
             await axios.delete(
-                `https://api.airtable.com/v0/${BASE_ID}/${TABLE_NAME}/${recordId}`,
+                `https://api.airtable.com/v0/${BASE_ID}/${tableName}/${recordId}`,
                 {
                     headers: {
                         Authorization: `Bearer ${AIRTABLE_API_KEY}`,
@@ -51,7 +61,14 @@ const Remove = () => {
 
     return (
         <div className="remove">
-            <h2>Remove Provider Entry</h2>
+            <h2>Remove Entry</h2>
+            <select
+                value={userType}
+                onChange={(e) => setUserType(e.target.value)}
+            >
+                <option value="Seeker">Seeker</option>
+                <option value="Provider">Provider</option>
+            </select>
             <input
                 type="text"
                 placeholder="Enter ID"
