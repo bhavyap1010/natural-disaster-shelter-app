@@ -2,7 +2,7 @@
   "name": "react-relief",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bhavyap1010.github.io/natural-disaster-shelter-app/",
+  "homepage": "https://reactrelief.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
