@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Remove.css';
 
-const AIRTABLE_API_KEY = 'pat2AVlJ1l5lyJzpR.bef90fc2a899a44b1d17191ec41d3925024fd4e6abc044afd61b80cfd5e27f43';
-const BASE_ID = 'appZRNWf4GOcgwlPO';
+const AIRTABLE_API_KEY = '';
+const BASE_ID = '';
 const TABLE_NAMES = {
     Seeker: 'Seekers',
     Provider: 'Providers',
@@ -12,7 +12,7 @@ const TABLE_NAMES = {
 const Remove = () => {
     const [id, setId] = useState('');
     const [email, setEmail] = useState('');
-    const [userType, setUserType] = useState('Seeker'); // Default to 'Seeker'
+    const [userType, setUserType] = useState('Seeker');
     const [message, setMessage] = useState('');
 
     const handleRemove = async () => {
